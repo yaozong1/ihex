@@ -1,0 +1,23 @@
+//usb 59768891
+usb 602712611
+si 1 
+device nrf52840_xxaa
+speed 2000
+r
+h
+erase
+loadfile ..\\ihex\\template_pca10056.hex
+r
+
+
+//usb 59768870
+usb 602712618
+si 1 
+device stm32f105rb
+speed 2000
+r
+h
+erase
+loadfile ..\\ihex\\roam_vcu.hex
+r
+q

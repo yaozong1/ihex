@@ -1,0 +1,13 @@
+//usb 59768891
+usb 602712611
+si 1
+device nrf52840_xxaa
+speed 2000
+r
+h
+erase
+loadfile ..\\ihex\\template_voltage_on.hex
+r
+q
+
+
